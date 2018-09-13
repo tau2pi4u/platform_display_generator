@@ -1,0 +1,72 @@
+{
+	"tScale" : 4,
+	"tStart" : 7,
+	"lcdInputPins" : [2, 3, 4, 5],
+	"oledInputPins" : [2, 3, 4, 5],
+	"lcdControlPins" : 
+	{
+		"data" : [13, 10, 9, 8],
+		"rs" : 12,
+		"en" : 11
+	},
+	"oledControlPins" : [18, 19],
+	"data" : 
+	[
+		{
+			"destination": "Manchester Vic",
+			"route": "Calling at: Leicester Central, Nottingham Victoria, Kirkby in Ashfield, Chesterfield Central, Sheffield Victoria, Penistone, Manchester Victoria    "
+		},
+		{
+			"destination": "Nottingham Vic",
+			"route": "Calling at: Rugby Central, Leicester Central, Leicester North, Quorn & Woodhouse, Loughborough Central    "
+		},
+		{
+			"destination": "Leicester Cntr",
+			"route": "Callin at: Woodford Halse, Wiloughby, Rugby Central, Lutterworth, Whetstone, Glen Parva, Leicester Central    "
+		},
+		{
+			"destination": "Towcester",
+			"route": "Calling at: Lufford Junction, Towcester   "
+		},
+		{
+			"destination": "Milton Keynes",
+			"route": "Calling at: Stowe, Buckingham, Padbury, Winslow, Bletchley, Milton Keynes Central    "
+		},
+		{
+			"destination": "Oxford  ",
+			"route": "Calling at: Bicester Village, Islip, Oxford Parkway, Oxford    "
+		},
+		{
+			"destination": "Nottingham Vic",
+			"route": "Calling at: Rugby Central, Leicester Central, Leicester North, Quorn & Woodhouse, Loughborough Central    "
+		},
+		{
+			"destination": "Leicester Cntr",
+			"route": "Callin at: Woodford Halse, Wiloughby, Rugby Central, Lutterworth, Whetstone, Glen Parva, Leicester Central    "
+		},
+		{
+			"destination": "Towcester",
+			"route": "Calling at: Lufford Junction, Towcester   "
+		},
+		{
+			"destination": "Nottingham Vic",
+			"route": "Calling at: Rugby Central, Leicester Central, Leicester North, Quorn & Woodhouse, Loughborough Central    "
+		},
+		{
+			"destination": "Leicester Cntr",
+			"route": "Callin at: Woodford Halse, Wiloughby, Rugby Central, Lutterworth, Whetstone, Glen Parva, Leicester Central    "
+		},
+		{
+			"destination": "Towcester",
+			"route": "Calling at: Lufford Junction, Towcester   "
+		},
+		{
+			"destination": "Nottingham Vic",
+			"route": "Calling at: Rugby Central, Leicester Central, Leicester North, Quorn & Woodhouse, Loughborough Central    "
+		},
+		{
+			"destination": "Leicester Cntr",
+			"route": "Callin at: Woodford Halse, Wiloughby, Rugby Central, Lutterworth, Whetstone, Glen Parva, Leicester Central    "
+		}
+	]
+}
