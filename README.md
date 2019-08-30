@@ -14,3 +14,5 @@ lcdControlPins sets the pins for the lcd display control signals.
 oledControl pins sets the pins for the oled control signals.
 
 data contains the various routes which can be displayed. The order here will be the index for the display, i.e. the 3rd one will require the input of 3 (note: 0 is reserved for a blank display). 
+
+The output folder contains two folders, each of which contains a .ino file which can be compiled and uploaded to an arduino.
