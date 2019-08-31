@@ -2,7 +2,7 @@
 ## Requirements
 The python script requires python 3.6 or newer.
 
-Arduino Nano and Adafruit SSD1306 OLED Display or an LCD display compatible with the Arduino LiquidCrystal library. 
+Arduino Nano and a display compatible with the SSD1306 OLED Display library or an LCD display compatible with the Arduino LiquidCrystal library. 
 
 ## Use
 
@@ -34,3 +34,5 @@ If no errors occurred, there should now be an output folder, containing two fold
 If the longest string is too long (~1000 characters for the OLED, 2000 for the LCD), then it may give a warning or error about memory and these will need to be made shorter. This is unlikely in normal use. 
 
 If the json file contains errors, it will fail. Make sure to place commas in between list items, but not at the start or end of the list, e.g. `[1, 2, 3, 4]` is good, `[1, 2, 3, 4,]` is bad. The same goes for dictionaries, with the addition of a colon between the key and value, so `{"key" : "value", "key2" : "value2"}` is good, `{"key" : "value", "key2" : "value2",}` is bad. 
+
+A pinlist for both displays is required, if only one is being used then just leave the other list as is.
